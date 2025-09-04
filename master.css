@@ -55,9 +55,14 @@
     margin-top: 3rem;
   }
 
-  /* this controls how the bullet points in the resume page looks */
-  ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-  }
+ ul {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;
+  text-align: center; /* Centers the list items */
+}
+
+li {
+  margin-bottom: 25px; /* Increased vertical spacing between list items */
+  font-size: 1em;
+}
+
